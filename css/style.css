@@ -69,7 +69,13 @@ article {
     text-align: center;
     border-radius: 5px;
   }
+
+  article {
+    max-width: 500px;
+  }
+
 }
+
 @media screen and (max-width: 530px) {
   .baner {
     box-sizing: border-box;
@@ -80,10 +86,15 @@ article {
     border-radius: 5px;
     padding-bottom: 0px;
   }
+
   .social {
     padding-left: 5px;
     border: none;
     text-align: center;
     border-radius: 5px;
+  }
+
+  article {
+    max-width: 330px;
   }
 }
