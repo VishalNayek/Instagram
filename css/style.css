@@ -87,11 +87,6 @@ article {
     text-align: center;
     border-radius: 5px;
   }
-  
-  body {
-    max-width: 975px;
-  }
-
 }
 
 @media screen and (max-width: 530px) {
@@ -111,8 +106,52 @@ article {
     text-align: center;
     border-radius: 5px;
   }
+}
+
+@media screen and (max-width: 414px) {
+  .baner {
+    box-sizing: border-box;
+    padding: 5px;
+    border: none;
+    margin-bottom: 0px;
+    text-align: center;
+    border-radius: 5px;
+    padding-bottom: 0px;
+  }
+
+  .social {
+    padding-left: 5px;
+    border: none;
+    text-align: center;
+    border-radius: 5px;
+  }
 
   body {
-    max-width: 525px;
+    max-width: 410px;
+    height: 730px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .baner {
+    box-sizing: border-box;
+    padding: 5px;
+    border: none;
+    margin-bottom: 0px;
+    text-align: center;
+    border-radius: 5px;
+    padding-bottom: 0px;
+  }
+
+  .social {
+    padding-left: 5px;
+    border: none;
+    text-align: center;
+    border-radius: 5px;
+  }
+
+  body {
+    max-width: 370px;
+    height: 660px;
   }
 }
