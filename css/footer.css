@@ -31,7 +31,13 @@ footer a {
 
 @media screen and (max-width: 980px) {
   footer {
-    position: fixed;
+    margin-left: 1000px;
+    margin-right: 1000px;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  footer {
     margin-left: 1000px;
     margin-right: 1000px;
   }
