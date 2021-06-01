@@ -88,6 +88,10 @@ article {
     border-radius: 5px;
   }
   
+  body {
+    max-width: 975px;
+  }
+
 }
 
 @media screen and (max-width: 530px) {
@@ -106,5 +110,9 @@ article {
     border: none;
     text-align: center;
     border-radius: 5px;
+  }
+
+  body {
+    max-width: 525px;
   }
 }
