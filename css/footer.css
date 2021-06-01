@@ -32,6 +32,7 @@ footer a {
 @media screen and (max-width: 980px) {
   footer {
     position: relative;
-    margin: auto;
+    margin-left: 1000px;
+    margin-right: 1000px;
   }
 }
